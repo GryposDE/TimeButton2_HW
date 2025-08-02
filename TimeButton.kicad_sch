@@ -3735,6 +3735,12 @@
 		(uuid "315cc089-ce09-4374-b30d-33880a390346")
 	)
 	(junction
+		(at 40.64 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3956489d-38bf-4ef9-aa74-f11c748161a1")
+	)
+	(junction
 		(at 63.5 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4051,6 +4057,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 95.25) (xy 29.21 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e51741e-2172-4be8-abdf-dcd421c3ad49")
+	)
+	(wire
+		(pts
 			(xy 29.21 110.49) (xy 29.21 113.03)
 		)
 		(stroke
@@ -4078,6 +4094,16 @@
 			(type default)
 		)
 		(uuid "30467feb-471d-4811-9a3c-2f6b0e0f53ed")
+	)
+	(wire
+		(pts
+			(xy 44.45 90.17) (xy 44.45 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3220a765-025b-4bd9-80dd-eba96711fcce")
 	)
 	(wire
 		(pts
@@ -4138,6 +4164,16 @@
 			(type default)
 		)
 		(uuid "3d0dac15-ac32-453f-89c0-cd39795d6044")
+	)
+	(wire
+		(pts
+			(xy 44.45 93.98) (xy 40.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f93a937-ca22-47fe-bf02-d2685ef84a18")
 	)
 	(wire
 		(pts
@@ -4281,6 +4317,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 93.98) (xy 33.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d670dd-ccdb-4881-9769-c077d2a96fe6")
+	)
+	(wire
+		(pts
 			(xy 77.47 167.64) (xy 77.47 185.42)
 		)
 		(stroke
@@ -4318,16 +4364,6 @@
 			(type default)
 		)
 		(uuid "641ca1c2-dcc0-4ffc-ac28-1fbc58893371")
-	)
-	(wire
-		(pts
-			(xy 40.64 100.33) (xy 40.64 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66dd6499-80fe-4384-897c-c2f1c974567e")
 	)
 	(wire
 		(pts
@@ -4778,6 +4814,16 @@
 			(type default)
 		)
 		(uuid "bb283812-b041-4c52-b8da-b6f034bfb823")
+	)
+	(wire
+		(pts
+			(xy 40.64 93.98) (xy 40.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce058b7-e236-464b-8dc7-4545e7ae1af4")
 	)
 	(wire
 		(pts
@@ -6830,7 +6876,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 40.64 100.33 0)
+		(at 44.45 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6839,7 +6885,7 @@
 		(fields_autoplaced yes)
 		(uuid "451f5884-8d19-42b9-a712-091c0f83b405")
 		(property "Reference" "#PWR017"
-			(at 40.64 104.14 0)
+			(at 44.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +6894,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 40.64 95.25 0)
+			(at 44.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,7 +6902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 100.33 0)
+			(at 44.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +6911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 100.33 0)
+			(at 44.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +6920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 40.64 100.33 0)
+			(at 44.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,6 +8196,75 @@
 			(project "TimeButton"
 				(path "/b8d0d559-03bf-427f-9068-e35467cdde18"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 36.83 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96ea4df1-fceb-44a4-8054-6ebaff12e3cc")
+		(property "Reference" "C3"
+			(at 38.1 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22pF"
+			(at 35.814 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 40.64 93.0148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c5a4d4c-54c5-4dff-85ac-af1bf9caacb4")
+		)
+		(pin "1"
+			(uuid "0f04f121-7cb0-45fc-8253-cd8ba203cbad")
+		)
+		(instances
+			(project "TimeButton"
+				(path "/b8d0d559-03bf-427f-9068-e35467cdde18"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9706,6 +9821,71 @@
 			(project "TimeButton"
 				(path "/b8d0d559-03bf-427f-9068-e35467cdde18"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df9f58be-36a7-49c2-8231-42897cf2dc1d")
+		(property "Reference" "#PWR021"
+			(at 29.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09dff4de-428a-480d-ac10-ca40ef8abaa1")
+		)
+		(instances
+			(project "TimeButton"
+				(path "/b8d0d559-03bf-427f-9068-e35467cdde18"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
